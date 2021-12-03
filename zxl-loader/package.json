@@ -1,0 +1,16 @@
+{
+  "name": "zxl-loader",
+  "version": "1.0.11",
+  "description": "replace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "loader-utils": "^2.0.2",  //(最新版本没有getoptins方法，会报错)
+    "webpack": "^5.64.4"
+  }
+}
